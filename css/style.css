@@ -1,11 +1,56 @@
 body {
     width: 994px;
     margin: auto;
-    background-image: url("../images/bg.png")
+    background-image: url("../images/bg.png");
+    box-shadow: 5px 5px 5px 5px #565656;
 }
 header, main, footer {
     background-color: white;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+header, main {
+
 }
 header h1 {
-    margin-top: 50px;
+    padding-top: 50px;
+    color: #565656;
+    font-size: 52px;
+    font-family: "Terminal Dosis";
+    margin-bottom: 0;
+}
+header img {
+    width: 34px;
+    height: 22px;
+    float: right;
+    margin-right: 40px;
+}
+header p {
+    color: #938e8e;
+    padding-bottom: 25px;
+}
+header a{
+    text-decoration: none;
+    color: #827f86;
+}
+header ul {
+    box-sizing: border-box;
+    height: 59px;
+    border-top: 1px solid #f3f3f3;
+    border-bottom: 1px solid #f3f3f3;
+    padding-top: 20px;
+
+}
+header li {
+    list-style: none;
+    display: inline-block;
+    height: 59px;
+    padding-left: 2em;
+    text-align: center;
+}
+
+main img{
+    padding-top: 33px;
+    width: 900px;
+    height: 508px;
 }

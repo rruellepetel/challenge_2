@@ -16,33 +16,40 @@ header h1 {
     font-family: "Terminal Dosis";
     margin-bottom: 0;
 }
+header p {
+    color: #938e8e;
+    padding-bottom: 25px;
+    margin-bottom: 0;
+
+}
 #chercher {
     width: 34px;
     height: 22px;
     float: right;
     margin-right: 40px;
-}
-header p {
-    color: #938e8e;
-    padding-bottom: 25px;
+    margin: 0;
+    padding-right: 2.5em;
 }
 a{
     text-decoration: none;
     color: #827f86;
     margin-bottom: 0;
+
 }
-header ul {
+header #menu {
     box-sizing: border-box;
     height: 59px;
     border-top: 1px solid #f3f3f3;
     border-bottom: 1px solid #f3f3f3;
     padding-top: 20px;
-    margin: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+        width: 900px;
 }
 header li {
     list-style: none;
     display: inline-block;
-    padding-left: 2em;
+    padding-left: 1.5em;
     text-align: center;
 }
 #sousmenu {
@@ -72,14 +79,17 @@ header ul li:hover #sousmenu {
     padding-top: 1em;
     color: #565656;
 }
-main {
-    padding-bottom: 10px;
-}
 header img{
-    padding-top: 33px;
+    margin-top: 33px;
+    padding-top: 0;
     width: 900px;
     height: 508px;
-    margin-left: 25px;
+
+
+}
+main {
+    padding-bottom: 10px;
+
 }
 main h2 {
     font-size: 28px;

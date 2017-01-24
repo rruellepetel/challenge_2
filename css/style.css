@@ -4,11 +4,13 @@ body {
     background-image: url("../images/bg.png");
     box-shadow: 5px 5px 5px 5px #565656;
 }
+
 header, main, footer {
     background-color: white;
     padding-left: 25px;
     padding-right: 25px;
 }
+
 header h1 {
     padding-top: 50px;
     color: #565656;
@@ -16,12 +18,13 @@ header h1 {
     font-family: "Terminal Dosis";
     margin-bottom: 0;
 }
+
 header p {
     color: #938e8e;
     padding-bottom: 25px;
     margin-bottom: 0;
-
 }
+
 #chercher {
     width: 34px;
     height: 22px;
@@ -30,12 +33,13 @@ header p {
     margin: 0;
     padding-right: 2.5em;
 }
+
 a{
     text-decoration: none;
     color: #827f86;
     margin-bottom: 0;
-
 }
+
 header #menu {
     box-sizing: border-box;
     height: 59px;
@@ -46,18 +50,20 @@ header #menu {
     padding-bottom: 0;
         width: 900px;
 }
+
 header li {
     list-style: none;
     display: inline-block;
     padding-left: 1.5em;
     text-align: center;
 }
+
 #sousmenu {
     display: none;
     margin: 0;
     padding: 0;
-
 }
+
 header ul li:hover #sousmenu {
     display: block;
     margin: 0;
@@ -66,12 +72,14 @@ header ul li:hover #sousmenu {
     position: absolute;
     margin-top: 1em;
 }
-#sousmenu li{
+
+#sousmenu li {
     margin: auto;
     padding: 0;
     display: block;
 }
-#sousmenu a{
+
+#sousmenu a {
     display: inline-block;
     background-color: #f4f4f4;
     width: 100%;
@@ -79,18 +87,18 @@ header ul li:hover #sousmenu {
     padding-top: 1em;
     color: #565656;
 }
-header img{
+
+header img {
     margin-top: 33px;
     padding-top: 0;
     width: 900px;
     height: 508px;
-
-
 }
+
 main {
     padding-bottom: 10px;
-
 }
+
 main h2 {
     font-size: 28px;
     text-align: center;
@@ -100,6 +108,7 @@ main h2 {
     padding-top: 38px;
     margin: 0;
 }
+
 .source {
     text-align: center;
     color: #AEB6BF;
@@ -108,19 +117,23 @@ main h2 {
     padding-bottom: 30px;
     margin: 0;
 }
+
 main p {
     font-size: 13px;
     font-family: "Helvetica Neue";
     color: #606060;
 }
+
 .ultimo {
     padding-bottom: 20px;
     border-bottom: 1px solid #f3f3f3;
 }
+
 footer {
     padding-top: 10px;
     margin: 0;
 }
+
 #title {
     padding-top: 20px;
     box-sizing: border-box;
@@ -132,6 +145,7 @@ footer {
     border-top: 1px solid #f3f3f3;
     border-bottom: 1px solid #f3f3f3;
 }
+
 footer ul {
     width: 24%;
     height: 235px;
@@ -139,11 +153,13 @@ footer ul {
     box-sizing: border-box;
     vertical-align: top;
 }
+
 footer h2 {
     font-family: "Terminal Dosis";
     font-size: 20px;
     color: #565656;
 }
+
 footer li {
     list-style: none;
     text-decoration: none;

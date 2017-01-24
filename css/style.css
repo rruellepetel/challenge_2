@@ -4,7 +4,6 @@ body {
     background-image: url("../images/bg.png");
     box-shadow: 5px 5px 5px 5px #565656;
 }
-
 header, main, footer {
     background-color: white;
     padding-left: 25px;
@@ -17,7 +16,7 @@ header h1 {
     font-family: "Terminal Dosis";
     margin-bottom: 0;
 }
-header img {
+#chercher {
     width: 34px;
     height: 22px;
     float: right;
@@ -31,7 +30,6 @@ a{
     text-decoration: none;
     color: #827f86;
     margin-bottom: 0;
-
 }
 header ul {
     box-sizing: border-box;
@@ -40,21 +38,35 @@ header ul {
     border-bottom: 1px solid #f3f3f3;
     padding-top: 20px;
     margin: 0;
-
-
 }
 header li {
     list-style: none;
     display: inline-block;
     padding-left: 2em;
     text-align: center;
-
 }
-
+#sousmenu {
+    display: none;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+}
+header ul li:hover #sousmenu {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#sousmenu li {
+    position: absolute;
+    margin: auto;
+    padding: 0;
+    background-color: #938e8e;
+}
 main {
     padding-bottom: 10px;
 }
-main img{
+header img{
     padding-top: 33px;
     width: 900px;
     height: 508px;
@@ -82,7 +94,6 @@ main p {
     font-family: "Helvetica Neue";
     color: #606060;
 }
-
 .ultimo {
     padding-bottom: 20px;
     border-bottom: 1px solid #f3f3f3;
@@ -108,7 +119,6 @@ footer ul {
     display: inline-block;
     box-sizing: border-box;
     vertical-align: top;
-
 }
 footer h2 {
     font-family: "Terminal Dosis";

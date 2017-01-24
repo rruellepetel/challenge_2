@@ -47,21 +47,30 @@ header li {
 }
 #sousmenu {
     display: none;
-    position: absolute;
     margin: 0;
     padding: 0;
+
 }
 header ul li:hover #sousmenu {
     display: block;
     margin: 0;
     padding: 0;
     list-style: none;
-}
-#sousmenu li {
     position: absolute;
+    margin-top: 1em;
+}
+#sousmenu li{
     margin: auto;
     padding: 0;
-    background-color: #938e8e;
+    display: block;
+}
+#sousmenu a{
+    display: inline-block;
+    background-color: #f4f4f4;
+    width: 100%;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    color: #565656;
 }
 main {
     padding-bottom: 10px;

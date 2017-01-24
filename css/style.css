@@ -29,7 +29,7 @@ header p {
     color: #938e8e;
     padding-bottom: 25px;
 }
-header a{
+a{
     text-decoration: none;
     color: #827f86;
 }
@@ -53,4 +53,49 @@ main img{
     padding-top: 33px;
     width: 900px;
     height: 508px;
+    margin-left: 25px;
+}
+main h2 {
+    font-size: 28px;
+    text-align: center;
+    color: #3E2A21;
+    font-family: "Terminal Dosis";
+}
+.source {
+    text-align: center;
+    color: #AEB6BF;
+    font-size: 13px;
+    font-family: "Helvetica Neue";
+}
+main p {
+    font-size: 13px;
+    font-family: "Helvetica Neue";
+    color: #606060;
+}
+#title {
+    box-sizing: border-box;
+    text-align: center;
+    color: #606060;
+    font-family: "Terminal Dosis";
+    height: 75px;
+    padding-top: 20px;
+}
+footer {
+
+}
+footer ul {
+    width: 20%;
+    height: 235px;
+    display: inline-block;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+footer h2 {
+    font-family: "Terminal Dosis";
+    font-size: 28px;
+    color: #565656;
+}
+footer li {
+    list-style: none;
+    text-decoration: none;
 }
